@@ -1,0 +1,20 @@
+.isClose{
+  display: none;
+}
+
+.filtersMenu.active .isClose{
+  display: block;
+}
+
+.popup{
+  display: none;
+}
+
+.isClose.active .popup{
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
